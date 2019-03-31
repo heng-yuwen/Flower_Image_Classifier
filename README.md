@@ -1,16 +1,10 @@
 # Flower_Image_Classifier by Udacity
 ## Table of Contents
 
-- [Project Description](#project Description)
-- [Installation](#installation)
-- [Change Log](#change-log)
-- [How to use](#how-to-use)
-- [Note to Windows OS Users](#note-to-windows-os-users)
-- [Development Experience](#development-experience)
-- [Breaking Changes from Udacity API](#breaking-changes-from-udacity-api)
-- [Reporting Issues](#reporting-issues)
-- [User Privacy](user-privacy)
-- [Disclaimer](#disclaimer)
+- [Project Description](#project-description)
+- [Project Jupyter Notebook](#project-jupyter-notebook)
+- [Command Line Training Application](#command-line-training-application)
+- [Command Line Predict Application](#command-line-predicting-application)
 
 ## Project Description
 
@@ -22,13 +16,11 @@ The project is combined with 3 parts:
 2. Train the image classifier on your dataset;
 3. Use the trained classifier to predict image content;
 
-## Main files
-
-### Project Jupyter Notebook
+## Project Jupyter Notebook
 
 The main code of this project is in the file [Image Classifier Project.ipynb](https://github.com/hyw1994/Flower_Image_Classifier/blob/master/Image%20Classifier%20Project.ipynb)
 
-### Command Line Training Application
+## Command Line Training Application
 
 The command line training application code is in the file [train.py](https://github.com/hyw1994/Flower_Image_Classifier/blob/master/train.py)
 
@@ -46,7 +38,7 @@ Options:
 
 4. Use GPU for training: `python train.py data_dir --gpu`
 
-### Command Line Predict Application
+## Command Line Predicting Application
 
 The command line predict application code is in the file [predict.py](https://github.com/hyw1994/Flower_Image_Classifier/blob/master/predict.py)
 
