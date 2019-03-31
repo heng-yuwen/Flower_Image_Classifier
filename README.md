@@ -31,3 +31,10 @@ Options:
 
 ### Command Line Predict Application
 The command line predict application code is in the file [predict.py](https://github.com/hyw1994/Flower_Image_Classifier/blob/master/predict.py)
+
+Basic usage: `python predict.py /path/to/image checkpoint`
+
+Options:
+1. Return top K most likely classes: `python predict.py input checkpoint --top_k 3`
+2. Use a mapping of categories to real names: `python predict.py input checkpoint --category_names cat_to_name.json`
+3. Use GPU for inference: `python predict.py input checkpoint --gpu`
