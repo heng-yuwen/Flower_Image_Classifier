@@ -16,6 +16,12 @@ The project is combined with 3 parts:
 2. Train the image classifier on your dataset;
 3. Use the trained classifier to predict image content;
 
+### Dataset
+The dataset used in this project can be downloaded [here]
+(https://s3.amazonaws.com/content.udacity-data.com/nd089/flower_data.tar.gz)
+
+To run the project, please download the dataset first and unzip it in the project folder.
+
 ## Project Jupyter Notebook
 
 The main code of this project is in the file [Image Classifier Project.ipynb](https://github.com/hyw1994/Flower_Image_Classifier/blob/master/Image%20Classifier%20Project.ipynb)
