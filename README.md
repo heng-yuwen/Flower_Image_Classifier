@@ -22,8 +22,10 @@ The main code of this project is in the file [Image Classifier Project.ipynb](ht
 
 ## Command Line Training Application
 
+### Main file
 The command line training application code is in the file [train.py](https://github.com/hyw1994/Flower_Image_Classifier/blob/master/train.py)
 
+### Usage
 Basic usage: `python train.py data_directory`
 
 Prints out training loss, validation loss, and validation accuracy as the network trains
@@ -40,7 +42,11 @@ Options:
 
 ## Command Line Predicting Application
 
+### Main file
+
 The command line predict application code is in the file [predict.py](https://github.com/hyw1994/Flower_Image_Classifier/blob/master/predict.py)
+
+### Usage
 
 Basic usage: `python predict.py /path/to/image checkpoint`
 
