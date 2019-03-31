@@ -19,7 +19,7 @@ The project is combined with 3 parts:
 ### Dataset
 The dataset used in this project can be downloaded [here](https://s3.amazonaws.com/content.udacity-data.com/nd089/flower_data.tar.gz)
 
-To run the project, please download the dataset first and unzip it in the project folder.
+To run the project, please download the dataset first and unzip it in the project folder. Then rename the dataset folder to `flowers`
 
 ## Project Jupyter Notebook
 
