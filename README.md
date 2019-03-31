@@ -9,8 +9,25 @@ The project is combined with 3 parts:
 3. Use the trained classifier to predict image content;
 
 ## Main files
+### Project Jupyter Notebook
 The main code of this project is in the file [Image Classifier Project.ipynb](https://github.com/hyw1994/Flower_Image_Classifier/blob/master/Image%20Classifier%20Project.ipynb)
 
+### Command Line Training Application
 The command line training application code is in the file [train.py](https://github.com/hyw1994/Flower_Image_Classifier/blob/master/train.py)
 
+Basic usage: `python train.py data_directory`
+
+Prints out training loss, validation loss, and validation accuracy as the network trains
+
+Options:
+
+1. Set directory to save checkpoints: `python train.py data_dir --save_dir save_directory`
+
+2. Choose architecture: `python train.py data_dir --arch "vgg13"`
+
+3. Set hyperparameters: `python train.py data_dir --learning_rate 0.01 --hidden_units 512 --epochs 20`
+
+4. Use GPU for training: `python train.py data_dir --gpu`
+
+### Command Line Predict Application
 The command line predict application code is in the file [predict.py](https://github.com/hyw1994/Flower_Image_Classifier/blob/master/predict.py)
