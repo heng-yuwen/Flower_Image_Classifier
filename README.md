@@ -17,8 +17,7 @@ The project is combined with 3 parts:
 3. Use the trained classifier to predict image content;
 
 ### Dataset
-The dataset used in this project can be downloaded [here]
-(https://s3.amazonaws.com/content.udacity-data.com/nd089/flower_data.tar.gz)
+The dataset used in this project can be downloaded [here](https://s3.amazonaws.com/content.udacity-data.com/nd089/flower_data.tar.gz)
 
 To run the project, please download the dataset first and unzip it in the project folder.
 
